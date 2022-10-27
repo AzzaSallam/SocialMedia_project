@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- Icons -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <!-- StyleSheet -->
+    <link href="css/style.css" rel="stylesheet" >
+    <title>Document</title>
+</head>
+<body>
+    <!--Nav-Bar  -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">AZSallam</h1>
+            <div class="searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="" id="search" placeholder="Search for ...">
+            </div>
+            <label for="create-post" class="btn">Create</label>
+            <div class="prof-img">
+                <img src="imgs/girl1.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <!--Nav-Bar  -->
+
+    <!-- Main  -->
+    <main>
+        <div class="container">
+            <!-- _____________Left______________ -->
+            <div class="left">
+                <a class="profile">
+                    <div class="prof-img">
+                        <img src="imgs/girl1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Azza Sallam</h3>
+                        <p class="text-muted">@AZSallam</p>
+                    </div>
+                </a>
+                    <!-- ______SideBar______ -->
+                    <div class="sidebar" >
+                        <a class="menu-item active"> 
+                            <span> <i class="fa-solid fa-house"></i> </span> 
+                            <h3>Home</h3>
+                        </a> 
+                        <a class="menu-item "> 
+                            <span> <i class="fa-regular fa-compass"></i> </span> 
+                            <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item " id="notification"> 
+                            <span> <i class="fa-regular fa-bell"></i> </span>
+                            <small class="notification-count">+9</small> 
+                            <h3>Notification</h3>
+                            <!-- ___________Notification_________ -->
+                            <div class="notification-popup">
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/boy1.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/boy3.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> AcceptedYour Friend Request
+                                        <small class="text-muted">2 Minutes AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/girl3.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/girl4.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/boy5.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/boy3.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="prof-img">
+                                        <img src="imgs/girl4.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> Commented on your post
+                                        <small class="text-muted">1 Hour AGO</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- ___________Notification_________ -->
+                        </a>
+                        <a class="menu-item " id="messages"> 
+                            <span> <i class="fa-regular fa-envelope"></i> </span> 
+                            <small class="message-count">+6</small>
+                            <h3>Messages</h3>
+                        </a>
+                        <a class="menu-item "> 
+                            <span> <i class="fa-regular fa-bookmark"></i> </span> 
+                            <h3>Saved</h3>
+                        </a>
+                        <a class="menu-item" id="theme"> 
+                            <span> <i class="fa-solid fa-palette"></i> </span> 
+                            <h3>Theme</h3>
+                        </a>
+                        <a class="menu-item "> 
+                            <span> <i class="fa-solid fa-gear"></i> </span> 
+                            <h3>Setting</h3>
+                        </a>
+                    </div>             
+                    <button id="create" class="btn">Create a post</button>
+            </div>
+            <!-- _________Middle________ -->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/girl1.jpg" alt="">
+                        </div>
+                        <p class="story-name">Your Story</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/girl5.jpg" alt="">
+                        </div>
+                        <p class="story-name">Maryaa Davy</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/girl2.jpg" alt="">
+                        </div>
+                        <p class="story-name">Leilla Sharaf</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/boy1.jpg" alt="">
+                        </div>
+                        <p class="story-name">Lord Geo</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/boy2.jpg" alt="">
+                        </div>
+                        <p class="story-name">Daived Siif</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="prof-pic">
+                            <img src="imgs/girl4.jpg" alt="">
+                        </div>
+                        <p class="story-name">Gomana Akl</p>
+                    </div>
+                </div>
+                <!-- _________Post-box_______ -->
+                <form class="create-post">
+                    <div class="create-img">
+                        <img src="imgs/girl1.jpg" alt="">
+                    </div>
+                    <input type="text" id="create" placeholder="What's on your mind...?" >
+                    <input class="btn" type="submit" value="Post">
+                </form>
+                <!-- __________Feeds_________ -->
+                <div class="feeds">
+                    <!-- _____POST 1_______ -->
+                    <div class="post">
+                        <div class="head-post">
+                            <div class="profimg-post">
+                                <img src="imgs/girl4.jpg" alt="">
+                            </div>
+                            <div class="info-post">
+                                <b class="name">Maryaa Davy</b>
+                                <small class="text-muted">Egypt, 15 Minutes ago</small>
+                                <i class="fa-solid fa-ellipsis option"></i>
+                            </div>
+                        </div>
+                        <div class="post-pic">
+                            <img src="imgs/girl2.jpg" alt="">
+                        </div>
+                        <div class="reacts">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark save"></i>
+                        </div>
+                        <div class="liked-by">
+                                <img src="imgs/girl2.jpg" alt="">
+                                <img src="imgs/boy4.jpg" alt="">
+                                <img src="imgs/boy5.jpg" alt="">
+                                <span>Liked by><b> Sama Ahmed</b> and <b>2,204 others</b></span>
+                        </div>
+                        <div class="txts">
+                            <p class="name"> <b>Maryaa Davy </b> <small>Lorem ipsum dolor sit amet.#lifestyle</small></p>
+                            <p class="text-muted">Veiw all 270 comments</p>
+                        </div>
+                        
+                    </div>
+                    <!-- _____POST 1_______ -->
+
+                    <!-- _____POST 2_______ -->
+                    <div class="post">
+                        <div class="head-post">
+                            <div class="profimg-post">
+                                <img src="imgs/girl3.jpg" alt="">
+                            </div>
+                            <div class="info-post">
+                                <b class="name">Leilla Sharaf</b>
+                                <small class="text-muted">Egypt, 15 Minutes ago</small>
+                                <i class="fa-solid fa-ellipsis option"></i>
+                            </div>
+                        </div>
+                        <div class="post-pic">
+                            <img src="imgs/234.png" alt="">
+                        </div>
+                        <div class="reacts">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark save"></i>
+                        </div>
+                        <div class="liked-by">
+                                <img src="imgs/girl2.jpg" alt="">
+                                <img src="imgs/boy4.jpg" alt="">
+                                <img src="imgs/boy5.jpg" alt="">
+                                <span>Liked by><b> Sama Ahmed</b> and <b>2,204 others</b></span>
+                        </div>
+                        <div class="txts">
+                            <p class="name"> <b>Leilla Sharaf</b> <small>Lorem ipsum dolor sit amet.#lifestyle</small></p>
+                            <p class="text-muted">Veiw all 270 comments</p>
+                        </div>
+                        
+                    </div>
+                    <!-- _____POST 2_______ -->
+
+                    <!-- _____POST 3_______ -->
+                    <div class="post">
+                        <div class="head-post">
+                            <div class="profimg-post">
+                                <img src="imgs/boy1.jpg" alt="">
+                            </div>
+                            <div class="info-post">
+                                <b class="name">Ahmed Kasem</b>
+                                <small class="text-muted">Egypt, 15 Minutes ago</small>
+                                <i class="fa-solid fa-ellipsis option"></i>
+                            </div>
+                        </div>
+                        <div class="post-pic">
+                            <img src="imgs/cont55.jpg" alt="">
+                        </div>
+                        <div class="reacts">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark save"></i>
+                        </div>
+                        <div class="liked-by">
+                                <img src="imgs/girl2.jpg" alt="">
+                                <img src="imgs/boy4.jpg" alt="">
+                                <img src="imgs/boy5.jpg" alt="">
+                                <span>Liked by><b> Sama Ahmed</b> and <b>2,204 others</b></span>
+                        </div>
+                        <div class="txts">
+                            <p class="name"> <b>Ahmed Kasem</b> <small>Lorem ipsum dolor sit amet.#lifestyle</small></p>
+                            <p class="text-muted">Veiw all 270 comments</p>
+                        </div>
+                        
+                    </div>
+                    <!-- _____POST 3_______ -->
+
+                    <!-- _____POST 4_______ -->
+                    <div class="post">
+                        <div class="head-post">
+                            <div class="profimg-post">
+                                <img src="imgs/girl5.jpg" alt="">
+                            </div>
+                            <div class="info-post">
+                                <b class="name">Diana Hadad</b>
+                                <small class="text-muted">Egypt, 15 Minutes ago</small>
+                                <i class="fa-solid fa-ellipsis option"></i>
+                            </div>
+                        </div>
+                        <div class="post-pic">
+                            <img src="imgs/girl3.jpg" alt="">
+                        </div>
+                        <div class="reacts">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark save"></i>
+                        </div>
+                        <div class="liked-by">
+                                <img src="imgs/girl2.jpg" alt="">
+                                <img src="imgs/boy4.jpg" alt="">
+                                <img src="imgs/boy5.jpg" alt="">
+                                <span>Liked by><b> Sama Ahmed</b> and <b>2,204 others</b></span>
+                        </div>
+                        <div class="txts">
+                            <p class="name"> <b>Diana Hadad </b> <small>Lorem ipsum dolor sit amet.#lifestyle</small></p>
+                            <p class="text-muted">Veiw all 270 comments</p>
+                        </div>
+                        
+                    </div>
+                    <!-- _____POST 4_______ -->
+
+                    <!-- _____POST 5_______ -->
+                    <div class="post">
+                        <div class="head-post">
+                            <div class="profimg-post">
+                                <img src="imgs/boy5.jpg" alt="">
+                            </div>
+                            <div class="info-post">
+                                <b class="name">Zain Elray</b>
+                                <small class="text-muted">Egypt, 15 Minutes ago</small>
+                                <i class="fa-solid fa-ellipsis option"></i>
+                            </div>
+                        </div>
+                        <div class="post-pic">
+                            <img src="imgs/boy2.jpg" alt="">
+                        </div>
+                        <div class="reacts">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark save"></i>
+                        </div>
+                        <div class="liked-by">
+                                <img src="imgs/girl2.jpg" alt="">
+                                <img src="imgs/boy4.jpg" alt="">
+                                <img src="imgs/boy5.jpg" alt="">
+                                <span>Liked by><b> Sama Ahmed</b> and <b>2,204 others</b></span>
+                        </div>
+                        <div class="txts">
+                            <p class="name"> <b>Zain Elray </b> <small>Lorem ipsum dolor sit amet.#lifestyle</small></p>
+                            <p class="text-muted">Veiw all 270 comments</p>
+                        </div>
+                        
+                    </div>
+                    <!-- _____POST 5_______ -->
+                </div>
+            </div>
+            <!-- _________________END-MIDDLE__________________ -->
+            <!-- _________Right________ -->
+            <div class="right">
+                <!-- _____Messages____ -->
+                <div class="messages">
+                    <div class="heading">
+                        <h3>Messages</h3>
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <!-- ____search-box____ -->
+                    <div class="message-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search-box" type="search" placeholder="Search message">
+                    </div>
+                    <!-- ____message-catogery____ -->
+                    <div class="category">
+                        <h5 class="active">Chats</h5>
+                        <h5 >General</h5>
+                        <h5 class="message-request ">Reuests(5)</h5> 
+                    </div>
+                    <!-- Messages-body -->
+                    <div class="messages-body">
+                        <div class="message">
+                            <div class="Mess-pic">
+                                <img src="imgs/boy1.jpg" alt="">
+                            </div>
+                            <div class="mess-info">
+                                <h5 class="name">Zain Hamdy</h5>
+                                <small class="read">Hello, how are you</small>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <div class="Mess-pic online">
+                                <img src="imgs/girl4.jpg" alt="">
+                            </div>
+                            <div class="mess-info">
+                                <h5 class="name">Jumanaa Yasser</h5>
+                                <small>OK, see you</small>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <div class="Mess-pic ">
+                                <img src="imgs/girl2.jpg" alt="">
+                            </div>
+                            <div class="mess-info">
+                                <h5 class="name">Jumanaa Yasser</h5>
+                                <small>OK, see you</small>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <div class="Mess-pic online">
+                                <img src="imgs/boy4.jpg" alt="">
+                            </div>
+                            <div class="mess-info">
+                                <h5 class="name">Saif Ayman</h5>
+                                <small class="read">OK, see you</small>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <div class="Mess-pic ">
+                                <img src="imgs/girl3.jpg" alt="">
+                            </div>
+                            <div class="mess-info">
+                                <h5 class="name">Jumanaa Yasser</h5>
+                                <small class="read">Thax</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- _____Requests_____ -->
+                <div class="requests">
+                    <div class="request-card">
+                        <div class="request">
+                            <div class="Mess-pic">
+                                <img src="imgs/girl2.jpg" alt="">
+                            </div>
+                            <div class="request-info">
+                                <b class="name">Tasneem Kasem</b>
+                                <small>5 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <button class="btnn">Accept</button>
+                            <button class="btnn">Delete</button>
+                        </div>
+                    </div>
+
+                    <div class="request-card">
+                        <div class="request">
+                            <div class="Mess-pic">
+                                <img src="imgs/boy2.jpg" alt="">
+                            </div>
+                            <div class="request-info">
+                                <b class="name">Ammar </b>
+                                <small>2 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <button class="btnn">Accept</button>
+                            <button class="btnn">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main  -->
+
+    <!-- ___________Customize-themes___________ -->
+    <div class="themes">
+        <div class="card-them">
+            <h3>Customize Your Veiw</h3>
+            <p class="text-muted">Manage your font size , color and background</p>
+            <!-- Font Size -->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div class="font-option">
+                    <h6>Aa</h6>
+                    <div class="font-choise">
+                        <span class="font-1 "></span>
+                        <span class="font-2 "></span>
+                        <span class="font-3 active"></span>
+                        <span class="font-4"></span>
+                        <span class="font-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- Color -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="color-option">
+                    <span data-color="#0D63A5" class="active-color"></span>
+                    <span data-color="#1C6758" ></span>
+                    <span data-color="#F56D91"></span>
+                    <span data-color="#35858B" ></span>
+                    <span data-color="#990000" ></span>
+                </div>
+            </div>
+            <!-- BackGround -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="bg-option">
+                    <div data-color="#EEF2E6" class="bg-choise1 active">
+                        <span></span>
+                        <h5>Light</h5>
+                    </div>
+                    <div data-color="#B2B2B2" datd-bg="#3C4048" class="bg-choise2">
+                        <span></span>
+                        <h5>Night</h5>
+                    </div>
+                    <div data-color="#100303" data-bg="#181818" class="bg-choise3">
+                        <span></span>
+                        <h5>Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ___________Customize-themes___________ -->
+
+    <script src="index.js"></script>
+</body>
+</html>
