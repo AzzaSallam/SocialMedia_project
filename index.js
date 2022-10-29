@@ -19,10 +19,6 @@ menuItem.forEach(item =>{
             let popup = document.querySelector('.notification-popup');
             popup.style.display='block';
             document.querySelector("#notification .notification-count").style.display='none';
-            // popup.style.boxShadow= '0 0 1rem var(--color-primary)';
-            // setTimeout(()=>{
-            //     popup.style.boxShadow='none'
-            // } , 2000)
         }
     })
 })
